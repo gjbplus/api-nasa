@@ -1,0 +1,52 @@
+
+* {
+  box-sizing: border-box
+  }
+  
+  :root {
+  --max: 18rem
+  }
+  
+  main {
+    min-height: calc(100vh - 160px);
+  }
+
+  body {
+  margin: 0;
+  padding: 0;
+  min-height: 100%
+  }
+  
+  .card {
+  background-color: darkslategrey;
+  width: var(--max);
+  height: 24rem;
+  margin: 10px auto;
+  }
+  
+  .card-img-top {
+  width: 100%;
+  max-width: var(--max);
+  height: 16rem;
+  object-fit:cover;
+  } 
+
+  .card-title{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-top: 1rem;
+    font-size: medium;
+    color: whitesmoke;
+  }
+
+  .card-header{
+    background-color: grey;
+    color: whitesmoke;
+  }
+  
+  #inputCantImages{
+    width: 40px;
+    font-size: 1rem;
+    font-weight: bold;
+    color: maroon;
+
+  }
